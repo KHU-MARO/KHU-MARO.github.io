@@ -2,74 +2,93 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Kyung Hee Univ. MARO 홈페이지">
-    <meta name="keywords" content="khu, KHU, Kyung Hee, MARO, maro">
-    <meta name="author" content="Junyoung Jung(sauber92)">
+  <meta charset="utf-8">
+  <meta name="description" content="Kyung Hee Univ. MARO homepage">
+  <meta name="keywords" content="khu, KHU, Kyung Hee, MARO, maro">
+  <meta name="author" content="Junyoung Jung(sauber92)">
 
-    <title>MARO | 경희대학교 전자전파공학과 학술동아</title>
+  <title>MARO | 경희대학교 전자ㆍ전파공학과 학술동아</title>
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="main.js"></script>
 </head>
 
 <body>
 <!--navigation-->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <!--mobile display-->
-      <div class="navbar-header page-scoll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand page-scroll" href="#page-top"><img src=""/></a>
-      </div>
-
-      <!--desktop display-->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="hidden">
-            <a href="#page-top"></a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#about">About</a>
-          </li>
-          <li>
-            <a class="page-scroll" href="#project" onclick="alert('준비 중입니다.');">Project</a>
-          </li>
-          <li>
-            <a class="page-scroll" onclick="alert('준비 중입니다.');">Members</a>
-            <!--<a class="page-scroll" href="./members.html#members">Members</a>-->
-
-          </li>
-          <li>
-            <a class="page-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <!--<nav class="navbar navbar-default navbar-fixed-top">-->
+    <!--mobile display-->
+    <!--<div class="navbar-header page-scoll">-->
+      <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">-->
+        <!--<span class="sr-only">Toggle navigation</span>-->
+        <!--<span class="icon-bar"></span>-->
+        <!--<span class="icon-bar"></span>-->
+        <!--<span class="icon-bar"></span>-->
+      <!--</button>-->
+      <!--<a class="navbar-brand page-scroll" href="#page-top"><img src=""/></a>-->
+    <!--</div>-->
+  <!--</nav>-->
 
 <!--header, fixed-->
   <header>
-    <h1 id="logo"></h1>
+    <!--desktop display-->
+    <h1 id="logo">희연이가 만든 로고</h1>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="hidden">
+        <a class="page-scroll" href="#topPicture">Home</a>
+      </li>
+      <li>
+        <a class="page-scroll" href="#about">About</a>
+      </li>
+      <li>
+        <a class="page-scroll" href="#project" onclick="alert('준비 중입니다.');">Project</a>
+      </li>
+      <li>
+        <a class="page-scroll" href="#contact">Contact</a>
+      </li>
+    </ul>
   </header>
+
+<!--"top picture" section-->
+  <section id="topPicture">
+    <div class="top-picture-color">
+      <p>경희대학교 전자ㆍ전파공학과 학술동아리 마로</p>
+      <h2>MARO</h2>
+    </div>
+  </section>
 
 <!--"about" section-->
   <section id="about">
-
+    <h3>ABOUT</h3>
+    <div class="description">
+      경희대학교 전자ㆍ전파공학과 학술동아리 마로는 전자ㆍ전파공학을 전공하면서 자칫 이론에 그치기 쉬운 학과 내용을
+      <br/>
+      실제로 적용해보며 전공에 대한 이해를 높이는 것을 목표로 삼고 있는 동아리입니다.
+    </div>
+    <div class="activity">
+      <h4>Activity</h4>
+      <p>정기활동으로...
+      <br/>
+        비정기 활동으로...
+      </p>
+    </div>
+    <div class="merit">
+      <h4>Merit</h4>
+      <p>정기활동으로...
+        <br/>
+        비정기 활동으로...
+      </p>
+    </div>
   </section>
 
 <!--project section-->
   <section id="project">
-
+    <h3>PROJECT</h3>
   </section>
 
 <!--contact section-->
   <section id="contact">
-
+    <h3>CONTACT</h3>
   </section>
 
 <!--footer-->
