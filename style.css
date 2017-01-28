@@ -37,7 +37,12 @@ header ul li a {
 
 section {
   width: 100%;
+  /**/
   height: 1000px;
+}
+
+.clearFix {
+  clear: both;
 }
 
 #topPicture {
@@ -67,9 +72,16 @@ section {
   color: rgb(255, 255, 255);
 }
 
+.description {
+  font-size: 18px;
+}
+
 #about {
+  width: 1200px;
+  /**/
+  height: auto;
+  margin: auto;
   padding-top: 40px;
-  background-color: yellow;
   text-align: center;
 }
 
@@ -78,45 +90,34 @@ section {
   font-size: 50px;
 }
 
-#about .description {
-  font-size: 18px;
-}
-
-#about .activity {
-  background-color: red;
-  float: left;
-  margin-top: 80px;
-  margin-left: 10%;
-  padding: 30px;
-}
-
-#about .activity h4 {
+#about h4 {
   display: inline;
   font-size: 30px;
 }
 
-#about .activity p {
+#about p {
   font-size: 15px;
 }
 
-
-#about .merit {
-  background-color: blue;
+#about .about-contents {
+  width: 400px;
+  height: 200px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: lightcoral;
   float: left;
-  margin-top: 80px;
+  margin-top: 60px;
   padding: 30px;
 }
 
-#about .merit h4 {
-  display: inline;
-  font-size: 30px;
-}
-
-#about .merit p {
-  font-size: 15px;
+#about #activity {
+  background-color: aquamarine;
 }
 
 #project {
+  width: 1200px;
+  margin: auto;
   padding-top: 40px;
   background-color: green;
   text-align: center;
@@ -127,7 +128,24 @@ section {
   font-size: 50px;
 }
 
+#project .github-link {
+  font-style: italic;
+}
+
+#project .contents {
+  width: 300px;
+  height: 400px;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  background-color: lightcoral;
+  border: solid 1px;
+}
+
 #contact {
+  width: 1200px;
+  margin: auto;
   padding-top: 40px;
   background-color: gray;
   text-align: center;
