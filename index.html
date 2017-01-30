@@ -9,8 +9,11 @@
 
   <title>MARO | 경희대학교 전자ㆍ전파공학과 학술동아리</title>
 
-  <link rel="stylesheet" href="style.css">
-  <script src="main.js"></script>
+  <link rel="stylesheet" href="public/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <script src="public/js/main.js"></script>
+  <script src="public/jquery.ui.translucent.min.js"></script>
 </head>
 
 <body>
@@ -64,6 +67,7 @@
       <br/>
       실제로 적용해보며 전공에 대한 이해를 높이는 것을 목표로 삼고 있는 동아리입니다.
       <br/>
+      <br/>
       이 웹페이지는 <strong>2016년 마로 학술제</strong> 소개 페이지입니다.
     </div>
     <div id="activity" class="about-contents">
@@ -112,15 +116,97 @@
         <a href="https://github.com/KHU-MARO/2016-academic-seminar" target="_blank">[바로가기]</a>
       </div>
     </div>
-    <div id="team1" class="contents"></div>
-    <div id="team2" class="contents"></div>
-    <div id="team3" class="contents"></div>
-    <div id="team4" class="contents"></div>
+    <div id="team1" class="contents">
+      <h4>1조
+      <br/>
+        <a href="https://github.com/KHU-MARO/2016-academic-seminar/tree/master/Team1" target="_blank">스마트 홈 시스템</a>
+      </h4>
+      <div class="thumbnail"></div>
+      <div class="project-description">
+        스마트 홈 시스템입니다.
+      </div>
+    </div>
+    <div id="team2" class="contents">
+      <h4>2조
+        <br/>
+        <a href="https://github.com/KHU-MARO/2016-academic-seminar/tree/master/Team2" target="_blank">Smart Mirror</a>
+      </h4>
+      <div class="thumbnail"></div>
+      <div class="project-description">
+        디스플레이를 통해
+        <br/>
+        거울에서 정보를 제공합니다.
+      </div>
+    </div>
+    <div id="team3" class="contents">
+      <h4>3조
+        <br/>
+        <a href="https://github.com/KHU-MARO/2016-academic-seminar/tree/master/Team3" target="_blank">졸음운전방지시스템</a>
+      </h4>
+      <div class="thumbnail"></div>
+      <div class="project-description">
+        스마트 홈 시스템입니다.
+      </div>
+    </div>
+    <div id="team4" class="contents">
+      <h4>4조
+        <br/>
+        <a href="https://github.com/KHU-MARO/2016-academic-seminar/tree/master/Team4" target="_blank">시각장애인을 위한 자동차</a>
+      </h4>
+      <div class="thumbnail"></div>
+      <div class="project-description">
+        스마트 홈 시스템입니다.
+      </div>
+    </div>
     <div class="clearFix"></div>
-    <div id="team5" class="contents"></div>
-    <div id="team6" class="contents"></div>
-    <div id="team7" class="contents"></div>
-    <div id="team8" class="contents"></div>
+    <div id="team5" class="contents">
+      <h4>5조
+        <br/>
+        <a href="https://github.com/KHU-MARO/2016-academic-seminar/tree/master/Team5" target="_blank">경희대 안내 모형지도</a>
+      </h4>
+      <div class="thumbnail"></div>
+      <div class="project-description">
+        경희대학교 모형지도와
+        <br/>
+        어플리케이션입니다.
+      </div>
+    </div>
+    <div id="team6" class="contents">
+      <h4>6조
+        <br/>
+        <a href="https://github.com/KHU-MARO/2016-academic-seminar/tree/master/Team6" target="_blank">심쿵간쿵</a>
+      </h4>
+      <div class="thumbnail"></div>
+      <div class="project-description">
+        GSR센서를 이용하여 사용자의
+        <br/>
+        생체신호를 받아 음료를
+        <br/>
+        제조하는 칵테일머신입니다.
+      </div>
+    </div>
+    <div id="team7" class="contents">
+      <h4>7조
+        <br/>
+        <a href="https://github.com/KHU-MARO/2016-academic-seminar/tree/master/Team7" target="_blank">카트 단말기</a>
+      </h4>
+      <div class="thumbnail"></div>
+      <div class="project-description">
+        바코드 리더기를 카트에 부착하여 소비자가
+        <br/>
+        편리하게 쇼핑을 할 수 있도록 도와줍니다.
+      </div>
+    </div>
+    <div id="team8" class="contents">
+      <h4>8조
+        <br/>
+        <a href="https://github.com/KHU-MARO/2016-academic-seminar/tree/master/Team8" target="_blank">할 일 관리 시스템</a>
+      </h4>
+      <div class="thumbnail"></div>
+      <div class="project-description">
+        스마트 홈 시스템입니다.
+      </div>
+    </div>
     <div class="clearFix"></div>
   </section>
 
@@ -157,11 +243,8 @@
 </div>
 <!--footer-->
   <footer>
-    <div class="git">
-      <p>Club Maro Github</p>
-      <a href="https://github.com/KHU-MARO" target="_blank"><img src="img/github-mark.png" width="60px"/></a>
-    </div>
-    <div class="writer">Design by <a href="https://github.com/sauber92" target="_blank">@junyoung</a></div>
+    <a class="git" href="https://github.com/KHU-MARO" target="_blank">Club Maro Github</a>
+    <a class="writer" href="https://github.com/sauber92" target="_blank">Design by @junyoung</a>
   </footer>
 </body>
 
