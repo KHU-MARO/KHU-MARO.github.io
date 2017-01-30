@@ -1,8 +1,10 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 html, body {
   margin: 0;
   padding: 0;
   font-size: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 header {
@@ -15,7 +17,7 @@ header {
 header h1 {
   margin: 30px 0 0 50px;
   float: left;
-  color: white;
+  color: #ffffff;
 }
 
 header ul {
@@ -37,8 +39,7 @@ header ul li a {
 
 section {
   width: 100%;
-  /**/
-  height: 1000px;
+  height: auto;
 }
 
 .clearFix {
@@ -48,28 +49,28 @@ section {
 #topPicture {
   background: url("img/maro-top-picture.png") no-repeat;
   background-size: 100%;
-  height: 500px;
+  height: 450px;
   text-align: center;
 }
 
 #topPicture .top-picture-color {
   background-color: rgba(0, 0, 0, 0.4);
-  height: 500px;
+  height: 450px;
 }
 
 #topPicture p {
   display: inline-block;
   font-size: 25px;
   font-style: italic;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   margin-top: 150px;
 }
 
 #topPicture h2 {
   position: relative;
-  top: -100px;
+  top: -140px;
   font-size: 120px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .description {
@@ -78,8 +79,6 @@ section {
 
 #about {
   width: 1200px;
-  /**/
-  height: auto;
   margin: auto;
   padding-top: 40px;
   text-align: center;
@@ -101,7 +100,7 @@ section {
 
 #about .about-contents {
   width: 400px;
-  height: 200px;
+  height: 220px;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -111,15 +110,15 @@ section {
   padding: 30px;
 }
 
-#about #activity {
+#about #academic {
   background-color: aquamarine;
 }
 
 #project {
   width: 1200px;
+  height: auto;
   margin: auto;
   padding-top: 40px;
-  background-color: green;
   text-align: center;
 }
 
@@ -128,7 +127,7 @@ section {
   font-size: 50px;
 }
 
-#project .github-link {
+#project .link {
   font-style: italic;
 }
 
@@ -139,16 +138,24 @@ section {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
+  margin-top: 50px;
   background-color: lightcoral;
   border: solid 1px;
 }
 
+.contact-background {
+  width: 100%;
+  height: 680px;
+  background: url("img/khu.jpg") no-repeat;
+  background-size: 100%;
+}
+
 #contact {
   width: 1200px;
-  margin: auto;
+  margin-top: 50px;
   padding-top: 40px;
-  background-color: gray;
   text-align: center;
+  color: #f0f8ff;
 }
 
 #contact h3 {
@@ -156,8 +163,100 @@ section {
   font-size: 50px;
 }
 
+#contact .contact-contents {
+  display: inline-block;
+  width: 1000px;
+  height: 250px;
+  margin-top: 30px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+#contact .information {
+  float: left;
+  width: 500px;
+}
+
+#contact .information .input {
+  display: inline-block;
+  width: 90%;
+  height: 60px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #555555;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+#contact .message {
+  float: left;
+  width: 500px;
+}
+
+#contact .message .input-message {
+  display: inline-block;
+  width: 90%;
+  height: 200px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 10px;
+  font-size: 14px;
+  color: #555555;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+}
+
+#contact .submit {
+  width: 1000px;
+  margin: auto;
+}
+
+#contact .submit #submitBnt {
+  width: 200px;
+  height: 40px;
+  font-size: 14px;
+  color: #ffffff;
+  border: 1px solid #778899;
+  border-radius: 4px;
+  background-color: #778899;
+}
+
 footer {
   width: 100%;
-  height:100px;
+  height:80px;
+  font-size: 18px;
+  text-align: center;
+}
+
+footer .git{
+  display: inline;
+  width: 50%;
+  float: left;
+  vertical-align: middle;
+  background-color: yellow;
+}
+
+footer .git p {
+  display: inline;
+}
+
+footer .git a {
+  display: inline;
+}
+
+footer .writer {
+  display: inline;
+  width: 50%;
+  float: right;
   background-color: blue;
+}
+
+footer .writer a {
+  text-decoration: none;
 }

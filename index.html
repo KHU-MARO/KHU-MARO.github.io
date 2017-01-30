@@ -7,10 +7,9 @@
   <meta name="keywords" content="khu, KHU, Kyung Hee, MARO, maro">
   <meta name="author" content="Junyoung Jung(sauber92)">
 
-  <title>MARO | 경희대학교 전자ㆍ전파공학과 학술동아</title>
+  <title>MARO | 경희대학교 전자ㆍ전파공학과 학술동아리</title>
 
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <script src="main.js"></script>
 </head>
 
@@ -41,7 +40,7 @@
         <a class="page-scroll" href="#about">About</a>
       </li>
       <li>
-        <a class="page-scroll" href="#project" onclick="alert('준비 중입니다.');">Project</a>
+        <a class="page-scroll" href="#project">Project</a>
       </li>
       <li>
         <a class="page-scroll" href="#contact">Contact</a>
@@ -64,20 +63,11 @@
       경희대학교 전자ㆍ전파공학과 학술동아리 마로는 전자ㆍ전파공학을 전공하면서 자칫 이론에 그치기 쉬운 학과 내용을
       <br/>
       실제로 적용해보며 전공에 대한 이해를 높이는 것을 목표로 삼고 있는 동아리입니다.
-    </div>
-    <div id="vision" class="about-contents">
-      <h4>Vision</h4>
-      <p>정기 활동으로 1학기 <strong>창립제</strong>와
-        <br/>
-        2학기 <strong>학술제</strong>가 있습니다.
-        <br/>
-        비정기 활동으로는 프로그래밍 교육과
-        <br/>
-        세미나를 자율적으로 진행합니다.
-      </p>
+      <br/>
+      이 웹페이지는 <strong>2016년 마로 학술제</strong> 소개 페이지입니다.
     </div>
     <div id="activity" class="about-contents">
-      <h4>Activity</h4>
+      <h4>활동</h4>
       <p>정기 활동으로 1학기 <strong>창립제</strong>와
         <br/>
         2학기 <strong>학술제</strong>가 있습니다.
@@ -87,11 +77,26 @@
         세미나를 자율적으로 진행합니다.
       </p>
     </div>
-    <div id="merit" class="about-contents">
-        <h4>Merit</h4>
-        <p>정기활동으로...
+    <div id="academic" class="about-contents">
+      <h4>학술제</h4>
+      <p>팀을 구성하여 관심분야 혹은
+        <br/>
+        도전하고 싶은 주제에 대해
+        <br/>
+        <strong>설계 및 개발</strong>을 하며
+        <br/>
+        프로젝트 경험을 쌓는 활동입니다.
+      </p>
+    </div>
+    <div id="2016" class="about-contents">
+        <h4>2016</h4>
+        <p>2016년에는 2015년에 이어
           <br/>
-          비정기 활동으로...
+          이화여자대학교 전자공학과 동아리
+          <br/>
+          <strong>E.E.I와 연합</strong>을 통한
+          <br/>
+          학술제가 1년간 진행되었습니다.
         </p>
     </div>
     <div class="clearFix"></div>
@@ -102,7 +107,7 @@
     <h3>PROJECT</h3>
     <div class="description">
       2016년 마로에서 진행한 학술제 프로젝트를 소개합니다.
-      <div class="github-link">
+      <div class="link">
         *마로 Github에서 프로젝트에 자세한 사항을 볼 수 있습니다.
         <a href="https://github.com/KHU-MARO/2016-academic-seminar" target="_blank">[바로가기]</a>
       </div>
@@ -116,16 +121,47 @@
     <div id="team6" class="contents"></div>
     <div id="team7" class="contents"></div>
     <div id="team8" class="contents"></div>
+    <div class="clearFix"></div>
   </section>
 
 <!--contact section-->
+<div class="contact-background">
   <section id="contact">
     <h3>CONTACT</h3>
+    <div class="description">
+      마로 동아리방은 경희대학교 국제캠퍼스 전자정보대학 242호에 위치해있습니다.
+      <br/>
+      궁금한 사항이 있으시면 언제든지 메일을 보내주세요! 최대한 빠르게 답변드리겠습니다.
+      <br/>
+      <br/>
+      <i>* 표시가 된 항목은 반드시 기입</i>
+    </div>
+    <div class="contact-contents">
+      <div class="information">
+        <input type="text" id="inputName" class="input" placeholder="* 성함" required="" data-validation-required-message="이름을 적어주세요.">
+        <div class="clearFix"></div>
+        <input type="text" id="inputEmail" class="input" placeholder="* 답변받으실 이메일" required="" data-validation-required-message="이메일 주소를 적어주세요.">
+        <div class="clearFix"></div>
+        <input type="text" id="inputPhone" class="input" placeholder="연락처">
+      </div>
+      <div class="message">
+        <input type="text" id="inputMessage" class="input-message" placeholder="* 문의하실 내용일 기입해주세요." required="" data-validation-required-message="메세지를 입력해 적어주세요.">
+      </div>
+      <div class="clearFix"></div>
+    </div>
+    <div class="submit">
+      <button type="submit" id="submitBnt"><strong>이메일 보내기</strong></button>
+    </div>
+    <div class="clearFix"></div>
   </section>
-
+</div>
 <!--footer-->
   <footer>
-
+    <div class="git">
+      <p>Club Maro Github</p>
+      <a href="https://github.com/KHU-MARO" target="_blank"><img src="img/github-mark.png" width="60px"/></a>
+    </div>
+    <div class="writer">Design by <a href="https://github.com/sauber92" target="_blank">@junyoung</a></div>
   </footer>
 </body>
 
