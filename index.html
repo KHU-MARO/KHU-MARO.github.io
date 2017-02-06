@@ -6,6 +6,7 @@
   <meta name="description" content="Kyung Hee Univ. MARO homepage">
   <meta name="keywords" content="khu, KHU, Kyung Hee, MARO, maro">
   <meta name="author" content="Junyoung Jung(sauber92)">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>MARO | 경희대학교 전자ㆍ전파공학과 학술동아리</title>
 
@@ -17,19 +18,18 @@
 </head>
 
 <body>
-<!--navigation-->
-  <!--<nav class="navbar navbar-default navbar-fixed-top">-->
-    <!--mobile display-->
-    <!--<div class="navbar-header page-scoll">-->
-      <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">-->
-        <!--<span class="sr-only">Toggle navigation</span>-->
-        <!--<span class="icon-bar"></span>-->
-        <!--<span class="icon-bar"></span>-->
-        <!--<span class="icon-bar"></span>-->
-      <!--</button>-->
-      <!--<a class="navbar-brand page-scroll" href="#page-top"><img src=""/></a>-->
-    <!--</div>-->
-  <!--</nav>-->
+<!-- "navigation" mobile display -->
+  <nav id="nav" role="navigation">
+    <h1>희연이가 만든 로고</h1>
+    <button id="dropdownBtn" class="dropbtn"><img src="public/img/line-menu.svg"/></button>
+    <div id="dropmenu" class="dropdown-contents">
+      <a class="page-scroll" href="#topPicture">Home</a>
+      <a class="page-scroll" href="#about">About</a>
+      <a class="page-scroll" href="#project">Project</a>
+      <a class="page-scroll" href="#contact">Contact</a>
+    </div>
+  </nav>
+  <div class="clearFix"></div>
 
 <!--header, fixed-->
   <header>
@@ -222,29 +222,30 @@
       <br/>
       <i>* 표시가 된 항목은 반드시 기입</i>
     </div>
-    <div class="contact-contents">
+    <form class="contact-contents" action="https://formspree.io/jjy920517@gmail.com" method="POST">
       <div class="information">
-        <input type="text" id="inputName" class="input" placeholder="* 성함" required="" data-validation-required-message="이름을 적어주세요.">
+        <input type="text" id="inputName" class="input" placeholder="성함" required="" data-validation-required-message="이름을 적어주세요.">
         <div class="clearFix"></div>
-        <input type="text" id="inputEmail" class="input" placeholder="* 답변받으실 이메일" required="" data-validation-required-message="이메일 주소를 적어주세요.">
+        <input type="text" id="inputEmail" class="input" name="_replyto" placeholder="* 답변받으실 이메일" required="" data-validation-required-message="이메일 주소를 적어주세요.">
         <div class="clearFix"></div>
         <input type="text" id="inputPhone" class="input" placeholder="연락처">
       </div>
       <div class="message">
-        <input type="text" id="inputMessage" class="input-message" placeholder="* 문의하실 내용일 기입해주세요." required="" data-validation-required-message="메세지를 입력해 적어주세요.">
+        <textarea id="inputMessage" class="input-message" name="message" placeholder="* 문의하실 내용일 기입해주세요." required="" data-validation-required-message="메세지를 입력해 적어주세요."></textarea>
       </div>
       <div class="clearFix"></div>
-    </div>
+    </form>
     <div class="submit">
-      <button type="submit" id="submitBnt"><strong>이메일 보내기</strong></button>
+      <button type="submit" id="submitBnt" value="Send"><strong>이메일 보내기</strong></button>
     </div>
     <div class="clearFix"></div>
   </section>
 </div>
+<div class="clearFix"></div>
 <!--footer-->
   <footer>
     <a class="git" href="https://github.com/KHU-MARO" target="_blank">Club Maro Github</a>
-    <a class="writer" href="https://github.com/sauber92" target="_blank">Design by @junyoung</a>
+    <a class="writer" href="https://github.com/KHU-MARO/KHU-MARO.github.io" target="_blank">Design by @junyoung</a>
   </footer>
 </body>
 

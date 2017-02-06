@@ -12,7 +12,6 @@ $(document).ready(function(){
       $("#aboutBtn").css('color', '#5f62ff');
     }
     else if(scroll_pos >= project_pos && scroll_pos < contact_pos) {
-      console.log("project");
       $("header").css('background-color', 'rgba(0, 0, 0, 0.8)');
       $(".page-scroll").css('color', '#ffffff');
       $("#projectBtn").css('color', '#5f62ff');
@@ -30,9 +29,11 @@ $(document).ready(function(){
 
   $(".page-scroll").click(function(event){
     event.preventDefault();
-    $("html,body").animate({scrollTop:$(this.hash).offset().top}, 500);
-    // $(".page-scroll").css('color', '#ffffff');
-    // $(this).css('color', '#5f62ff');
+    $("html,body").animate({scrollTop:$(this.hash).offset().top + 5}, 500);
+    $("#dropmenu").slideToggle(300);
+  });
+
+  $("#dropdownBtn").click(function() {
+    $("#dropmenu").slideToggle(300);
   });
 });
-
