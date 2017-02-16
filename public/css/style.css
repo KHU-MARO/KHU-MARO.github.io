@@ -17,7 +17,7 @@ header {
 }
 
 header h1 {
-  margin: 30px 0 0 50px;
+  margin: 15px 0 0 50px;
   float: left;
   color: #ffffff;
 }
@@ -166,10 +166,24 @@ section {
   height: 190px;
   margin: 15px auto;
   border-radius: 100px;
-  background-color: red;
+}
+
+#project #team1 .thumbnail {
+  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team2/Reference/smartmirror.jpg?raw=true");
+  background-size: 100%;
 }
 
 #project #team2 .thumbnail {
+  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team2/Reference/smartmirror.jpg?raw=true");
+  background-size: 100%;
+}
+
+#project #team3 .thumbnail {
+  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team2/Reference/smartmirror.jpg?raw=true");
+  background-size: 100%;
+}
+
+#project #team4 .thumbnail {
   background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team2/Reference/smartmirror.jpg?raw=true");
   background-size: 100%;
 }
@@ -182,6 +196,16 @@ section {
 #project #team6 .thumbnail {
   background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team6/team6.png?raw=true");
   background-size: 100%;
+}
+
+#project #team7 .thumbnail {
+  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team2/Reference/smartmirror.jpg?raw=true");
+  background-size: 100%;
+}
+
+#project #team8 .thumbnail {
+  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team8/PPT/team8.png?raw=true");
+  background-size: 200%;
 }
 
 #project .project-description {
@@ -465,7 +489,7 @@ footer a:hover {
 }
 
 /* tablet display */
-@media screen and (min-width: 481px) and (max-width: 900px) {
+@media screen and (min-width: 481px) and (max-width: 1024px) {
   nav {
     display: inline-block;
     position: fixed;
