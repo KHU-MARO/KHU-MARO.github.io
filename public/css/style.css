@@ -166,10 +166,11 @@ section {
   height: 190px;
   margin: 15px auto;
   border-radius: 100px;
+  background-color: red;
 }
 
 #project #team1 .thumbnail {
-  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team2/Reference/smartmirror.jpg?raw=true");
+  /*background: url("");*/
   background-size: 100%;
 }
 
@@ -179,12 +180,12 @@ section {
 }
 
 #project #team3 .thumbnail {
-  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team2/Reference/smartmirror.jpg?raw=true");
+  /*background: url("");*/
   background-size: 100%;
 }
 
 #project #team4 .thumbnail {
-  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team2/Reference/smartmirror.jpg?raw=true");
+  /*background: url("");*/
   background-size: 100%;
 }
 
@@ -199,8 +200,8 @@ section {
 }
 
 #project #team7 .thumbnail {
-  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team2/Reference/smartmirror.jpg?raw=true");
-  background-size: 100%;
+  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team7/PPT/team7.png?raw=truehttps://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team7/PPT/team7.png?raw=true");
+  background-size: 200%;
 }
 
 #project #team8 .thumbnail {
@@ -359,22 +360,25 @@ footer a:hover {
   nav h1 {
     display: inline;
     float: left;
+    margin-left: 5px;
     color: white;
   }
-  nav button {
-    float: right;
-    width: 60px;
-    -webkit-appearance: none;
+  nav h1 img {
+    width: 80px;
   }
-  nav button img {
-    width: 100%;
-    height: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    background-color: #5f62ff;
+  nav .dropbtn {
+    float: right;
+    width: 35px;
+    height: 20px;
+    margin: 5px 5px 0 0;
+    cursor: pointer;
+  }
+  nav .dropbtn .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 4px;
+    margin: 7px 0;
+    transition: 0.4s;
+    background-color: #ffffff;
   }
   nav a {
     display: block;
@@ -516,22 +520,20 @@ footer a:hover {
     display: inline;
     float: left;
     color: white;
-    font-size: 23px;
+    margin: 23px 0 0 20px;
   }
-  nav button {
+  nav .dropbtn {
     float: right;
     width: 80px;
-    -webkit-appearance: none;
+    height: 77px;
+    cursor: pointer;
   }
-  nav button img {
-    width: 100%;
-    height: 100%;
-    padding: 15px;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    background-color: #5f62ff;
+  nav .dropbtn .bar1, .bar2, .bar3 {
+    width: 60px;
+    height: 10px;
+    margin: 10px 0;
+    transition: 0.4s;
+    background-color: #ffffff;
   }
   nav a {
     display: block;
