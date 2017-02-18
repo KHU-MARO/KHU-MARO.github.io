@@ -295,11 +295,13 @@ section {
 #contact #submitBnt {
   width: 200px;
   height: 40px;
+  margin-top: 20px;
   font-size: 14px;
   color: #ffffff;
   border: 1px solid #778899;
   border-radius: 4px;
   background-color: #778899;
+  -webkit-appearance: none;
 }
 
 footer {
