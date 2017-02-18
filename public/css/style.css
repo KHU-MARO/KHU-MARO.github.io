@@ -292,7 +292,7 @@ section {
   margin: auto;
 }
 
-#contact .submit #submitBnt {
+#contact #submitBnt {
   width: 200px;
   height: 40px;
   font-size: 14px;
