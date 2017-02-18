@@ -251,7 +251,7 @@
     </div>
     <form class="contact-contents" action="https://formspree.io/jjy920517@gmail.com" method="POST">
       <div class="information">
-        <input type="text" id="inputName" class="input" placeholder="성함" required="" data-validation-required-message="이름을 적어주세요.">
+        <input type="text" id="inputName" class="input" name="name" placeholder="* 성함" required="" data-validation-required-message="이름을 적어주세요.">
         <div class="clearFix"></div>
         <input type="text" id="inputEmail" class="input" name="_replyto" placeholder="* 답변받으실 이메일" required="" data-validation-required-message="이메일 주소를 적어주세요.">
         <div class="clearFix"></div>
@@ -263,7 +263,7 @@
       <div class="clearFix"></div>
     </form>
     <div class="submit">
-      <button type="submit" id="submitBnt" value="Send" onclick="alert('메일을 전송하였습니다.')"><strong>이메일 보내기</strong></button>
+      <input type="submit" id="submitBnt" value="Send" onclick="alert('메일을 전송하였습니다.')"><strong>이메일 보내기</strong></input>
     </div>
     <div class="clearFix"></div>
   </section>
