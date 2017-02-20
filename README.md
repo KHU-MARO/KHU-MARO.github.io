@@ -3,9 +3,10 @@
 > KHU-MARO Githubpages  
 > 경희대학교 전자전파공학과 학술동아리 마로 깃헙페이지  
 
+<br/>
+
 ### 개발스펙  
 
-<br/>
 
 * 사용언어 : HTML, CSS, Javascript  
 * 라이브러리 : jQuery 3.1.1 , jQuery UI 1.12.1  
@@ -18,11 +19,9 @@
 
 ***  
 
-<br/>
 
 ### 테스트
 
-<br/>
 
 * 기기 테스트  
 	* 데스크탑(13인치, 27인치 모니터)  
@@ -40,14 +39,14 @@
 
 ***
 
-<br/>
 
 ### URL
 
-<br/>
 
 * 홈페이지 : https://khu-maro.github.io  
 * 깃헙 레파지토리 : https://github.com/KHU-MARO/KHU-MARO.github.io  
+
+***
 
 ### 제작자  
 
