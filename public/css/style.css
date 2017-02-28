@@ -166,7 +166,6 @@ section {
   height: 190px;
   margin: 15px auto;
   border-radius: 100px;
-  background-color: red;
 }
 
 #project #team1 .thumbnail {
@@ -180,8 +179,8 @@ section {
 }
 
 #project #team3 .thumbnail {
-  /*background: url("");*/
-  background-size: 100%;
+  background: url("https://github.com/KHU-MARO/2016-academic-seminar/blob/master/Team3/PPT/team3.png?raw=true");
+  background-size: 150%;
 }
 
 #project #team4 .thumbnail {
